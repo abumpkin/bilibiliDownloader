@@ -8,9 +8,7 @@
 
 * `bDownloader.py`: b站视频下载器,支持指定 sessdata（可获得更高清晰度），支持选择清晰度。
 * `blive.py`: b站直播间视频下载，支持 flv、ts、
-m4a 等流视频格式。
-
-注意：本程序仅供学习使用，请勿用于其他用途，由使用此程序造成的一切法律后果本人概不负责。
+m4s 等流视频格式。
 
 ## 运行环境
 
@@ -30,7 +28,7 @@ m4a 等流视频格式。
     pip install beautifulsoup4
     ```
 
-3. 安装ffmpeg[点这里下载](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-28-12-36/ffmpeg-N-100479-gd67c6c7f6f-win64-gpl-shared-vulkan.zip)
+3. 安装ffmpeg[点这里下载](https://github.com/BtbN/FFmpeg-Builds/releases)
 4. 解压到D:\Program Files之类的目录
 5. 添加环境变量，桌面右键此电脑->属性->高级系统设置->高级->环境变量
 
@@ -77,6 +75,6 @@ m4a 等流视频格式。
 
 > 各浏览器方法不尽相同，还请自行尝试😋。
 
-## 申明
+## 声明
 
 本程序仅供学习使用，请勿用于其他用途。
