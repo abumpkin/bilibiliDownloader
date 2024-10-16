@@ -153,7 +153,7 @@ def main(argv:list,headers):
         html = htmlResponse.read().decode("utf-8")
     print("正在解析网页...")
     doc = Soup(html,features="html.parser")
-    fileName = doc.select("head > title")[0].text + '.mp4'
+    fileName = doc.title.string + '.mp4'
     for rchar in ('/','\\',':','*','?','"','<','>','|'):
         fileName = fileName.replace(rchar,"-")
     if os.path.exists(os.path.join(outputPath,fileName)):
